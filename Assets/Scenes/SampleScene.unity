@@ -951,6 +951,7 @@ MonoBehaviour:
   DarkMode: {fileID: 1594831487}
   Background:
   - {fileID: 644357196}
+  - {fileID: 1116114822}
   Articles:
   - {fileID: 377195866762156724}
   - {fileID: 189782074}
@@ -960,6 +961,7 @@ MonoBehaviour:
   - {fileID: 1617431763}
   - {fileID: 1073920746}
   - {fileID: 2044342726}
+  - {fileID: 1759742314}
   Icons:
   - {fileID: 1601310321}
   - {fileID: 875344560}
@@ -3762,6 +3764,10 @@ PrefabInstance:
     - target: {fileID: 2515404991403373749, guid: 4fe1d95e4fd1b854cafc37df5ae2cd8e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079168279764699759, guid: 4fe1d95e4fd1b854cafc37df5ae2cd8e, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7463642201680496709, guid: 4fe1d95e4fd1b854cafc37df5ae2cd8e, type: 3}
       propertyPath: m_Name

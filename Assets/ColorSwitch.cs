@@ -7,21 +7,20 @@ using UnityEngine.UI;
 
 public class ColorSwitch : MonoBehaviour
 {
-    //state true => light mode | state false => dark mode
-    private bool _Light = true;
+    //_LightMode true => light mode | _LightMode false => dark mode
+    private bool _LightMode = true;
 
     [Header("Mode Panels")]
     public GameObject LightMode;
     public GameObject DarkMode;
-
-    private Color White = new(255,255,255,255);
-    private Color Black = new(0,0,51,255);
-    private Color ArticleWhite = new(221,221,221,255);
-    private Color ArticleDark = new(51,51,51,255);
-    private Color IconWhite = new(204,204,204,255);
-    private Color IconDark = new(51,51,51,255);
-    private Color TextWhite = new(255,255,255,255);
-    private Color TextDark = new(0,0,0,255);
+    private Color White = new(1f,1f,1f,255f);
+    private Color Black = new(0f,0f,0.2f,255f);
+    private Color ArticleWhite = new(0.86f,0.86f,0.86f,255f);
+    private Color ArticleDark = new(0.2f,0.2f,0.2f,255f);
+    private Color IconWhite = new(0.8f,0.8f,0.8f,255f);
+    private Color IconDark = new(0.2f,0.2f,0.2f,255f);
+    private Color TextWhite = new(1,1,1,255f);
+    private Color TextDark = new(0f,0f,0f,255f);
 
     [Header("Color lists")]
     public List<GameObject> Background = new List<GameObject>();
@@ -33,8 +32,8 @@ public class ColorSwitch : MonoBehaviour
         colorSwap(true);
     }
    public void ThemeSwitch(){
-        _Light = !_Light;
-        colorSwap(_Light);
+        _LightMode = !_LightMode;
+        colorSwap(_LightMode);
    }
    public void colorSwap(bool State){
     //light mode
