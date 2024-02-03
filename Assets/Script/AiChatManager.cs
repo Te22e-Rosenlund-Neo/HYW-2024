@@ -25,6 +25,7 @@ public class AiChatManager : MonoBehaviour
         _AIResponse = "Could not find in database, try again!";
         _outputfield.text = _AIResponse;
     }
+
     
 }
 
