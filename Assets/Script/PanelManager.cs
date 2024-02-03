@@ -26,8 +26,18 @@ public class PanelManager : MonoBehaviour
 //sets designated panel to true
         PanelID.SetActive(!PanelID.activeSelf);
     }
+    public void SettingPanelOpen(GameObject PanelID){
+foreach(GameObject Panel in Panels){
+            Panel.SetActive(false);
+        }
+//sets designated panel to true
+        PanelID.SetActive(!PanelID.activeSelf);
+        DefaultPanel.SetActive(true);
+
+    }
+    }
     
 
 
 
-}
+
