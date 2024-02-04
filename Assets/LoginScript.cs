@@ -11,6 +11,9 @@ public class LoginScript : MonoBehaviour
     string UsernameInput;
     string passwordInput;
 
+    public GameObject ProfilePanel;
+    public GameObject LoginPanel;
+
 //takes user input when interacted with. decides if it should create an account of login
     public void TakeInput(bool Create){
         UsernameInput = UsernameInputfield.text;
@@ -30,9 +33,11 @@ public class LoginScript : MonoBehaviour
 
     //we check if the usernames(key) value is the same as the password that was put in
     void Login(string AccUserName, string InputPassWord){
-
         if(PlayerPrefs.GetString(AccUserName) == InputPassWord){
-            Debug.Log("Logged in!");
+
+            GameObject.Find("PanelManager").GetComponent<PanelManager>().LoggedIn = true;
+            GameObject.Find("PanelManager").GetComponent<PanelManager>().OpenProfile();
+
         }else{
             Debug.Log("Wrong Password or username");
         }
