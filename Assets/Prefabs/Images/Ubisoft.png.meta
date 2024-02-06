@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ubisoft_0: 284585969139516027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

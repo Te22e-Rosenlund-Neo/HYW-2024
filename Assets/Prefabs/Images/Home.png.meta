@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 899ecac931af7f540ba2cdfe25ccaec5
+guid: 8325a17d3e12214448214d1353382aeb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -26549584430186500
-    second: Juridik_0
+      213: 4433539168102762298
+    second: Home_0
+  - first:
+      213: -5679780796083437369
+    second: Home_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,8 +76,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Juridik_0
+      name: Home_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 288
-        height: 220
+        y: 188
+        width: 400
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +143,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cffba1b2b4da1aff0800000000000000
-      internalID: -26549584430186500
+      spriteID: a37cb8c2268178d30800000000000000
+      internalID: 4433539168102762298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Home_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 10
+        width: 284
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c08c5f657d5d21b0800000000000000
+      internalID: -5679780796083437369
       vertices: []
       indices: 
       edges: []
@@ -149,7 +173,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Juridik_0: -26549584430186500
+      Home_0: 4433539168102762298
+      Home_1: -5679780796083437369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

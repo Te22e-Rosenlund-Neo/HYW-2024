@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 899ecac931af7f540ba2cdfe25ccaec5
+guid: 1e869b7e572209f4c8aaf5275239121a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -26549584430186500
-    second: Juridik_0
+      213: 9100628432037306104
+    second: nedladdning_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Juridik_0
+      name: nedladdning_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 220
+        width: 225
+        height: 224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cffba1b2b4da1aff0800000000000000
-      internalID: -26549584430186500
+      spriteID: 8fe576c775deb4e70800000000000000
+      internalID: 9100628432037306104
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Juridik_0: -26549584430186500
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

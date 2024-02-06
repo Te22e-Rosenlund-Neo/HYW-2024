@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 899ecac931af7f540ba2cdfe25ccaec5
+guid: 5888142bcfa5be6408b584082aba73de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -26549584430186500
-    second: Juridik_0
+      213: -5197687505146949456
+    second: peach_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Juridik_0
+      name: peach_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 220
+        width: 689
+        height: 507
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cffba1b2b4da1aff0800000000000000
-      internalID: -26549584430186500
+      spriteID: 0b0da3aa0ca1ed7b0800000000000000
+      internalID: -5197687505146949456
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Juridik_0: -26549584430186500
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
